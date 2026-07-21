@@ -1,0 +1,8 @@
+name = "cloudflare-vless-panel"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# اتصال به دیتابیس برای ذخیره کانفیگ‌ها
+[[kv_namespaces]]
+binding = "CONFIG_KV"
+id = "شناسه_KV_خود_را_اینجا_بگذارید"
